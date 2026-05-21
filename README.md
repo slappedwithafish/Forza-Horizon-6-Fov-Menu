@@ -8,9 +8,9 @@ Lets you customize the field-of-view for all five in-game camera modes — **Cha
 
 ## Origin / credits
 
-This is a **vibecoded** rebuild based on the open-source [Forza Mods FOV Menu](https://github.com/ForzaMods/Fov-Menu) (huge thanks to the Forza Mods team — all the actual memory-scanning brain power is theirs). The original tool was built for Forza Horizon 5, and while it works perfectly on FH6's engine internals (signatures didn't change), it had one annoying limitation that this build fixes.
+This is a **vibecoded** rebuild based on the open-source [FOV Menu by merika](https://github.com/ForzaMods/Fov-Menu) (huge thanks to [merika](https://merika.dev/) — all the actual memory-scanning, signature work, and Anti-Tamper / RE brain power is his). The original tool was built for Forza Horizon 5, and while it works perfectly on FH6's engine internals (signatures didn't change), it had one annoying limitation that this build fixes.
 
-Special shout-out to **Ichi Gaming** ([@ichi_Gaming00](https://www.youtube.com/@ichi_Gaming00)) — his [video tutorial](https://www.youtube.com/watch?v=hqHdzYfWnTs) was the first to figure out that the FH5 menu actually works on FH6 if you rename the executable. That discovery is what made this build possible — without his original workaround, nobody would have known the FH5 tool was even compatible.
+Special shout-out to **Ichi Gaming** ([@ichi_Gaming00](https://www.youtube.com/@ichi_Gaming00)) — his [video tutorial](https://www.youtube.com/watch?v=hqHdzYfWnTs) was the first to figure out that merika's FH5 menu actually works on FH6 if you rename the executable. That discovery is what made this build possible — without his original workaround, nobody would have known the FH5 tool was even compatible.
 
 ## The "rename your exe" problem (and how we fixed it)
 
@@ -26,7 +26,7 @@ Updated the process detection logic in [Addresses.cs](cci:7://file:///c:/Users/m
 - **FH6 Tokyo Festival UI** — sakura-pink-to-cyan gradient wordmark, neon glow drop shadow, dark midnight background, card-based layout with colored category dots, modern title bar with min/close buttons
 - **Live connection status bar** — shows green "CONNECTED · FORZAHORIZON6.EXE" when attached, red "WAITING FOR FORZAHORIZON6.EXE" otherwise, with a glowing status dot
 - **Compact 5.9 MB build** — single exe, easy distribution
-- **Signature scans untouched** — same Forza Mods scan patterns, same memory I/O, same reliability
+- **Signature scans untouched** — same scan patterns merika wrote, same memory I/O, same reliability
 
 ## Requirements
 
@@ -42,10 +42,10 @@ Updated the process detection logic in [Addresses.cs](cci:7://file:///c:/Users/m
 
 ## Disclaimer
 
-Vibecoded build with AI assistance. Core memory scanning and signature logic is unchanged from the original Forza Mods tool — this is purely a process-name compatibility fix and a UI reskin. Use at your own risk; works in offline play, untested for online/multiplayer (the original tool's authors recommend offline-only out of an abundance of caution).
+Vibecoded build with AI assistance. Core memory scanning and signature logic is unchanged from merika's original tool — this is purely a process-name compatibility fix and a UI reskin. Use at your own risk; works in offline play, untested for online/multiplayer (the original tool's author recommends offline-only out of an abundance of caution).
 
 ## Sources & credits
 
-- **Original tool:** [github.com/ForzaMods/Fov-Menu](https://github.com/ForzaMods/Fov-Menu) — Forza Mods team
-- **Compatibility discovery:** [Ichi Gaming on YouTube](https://www.youtube.com/watch?v=hqHdzYfWnTs) ([@ichi_Gaming00](https://www.youtube.com/@ichi_Gaming00))
+- **Original tool & all the actual reverse engineering:** [merika](https://merika.dev/) — [github.com/ForzaMods/Fov-Menu](https://github.com/ForzaMods/Fov-Menu)
+- **Compatibility discovery:** [Ichi Gaming](https://www.youtube.com/@ichi_Gaming00) — [video tutorial](https://www.youtube.com/watch?v=hqHdzYfWnTs)
 - **This FH6 build:** vibecoded patch + Tokyo Edition theme
